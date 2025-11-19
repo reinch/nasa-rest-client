@@ -1,6 +1,6 @@
 // js/features/apod.js
 export default function () {
-  const API_KEY = 'DEMO KEY'; // ganti dengan key pribadi kalau mau lebih dari 1000 request/hari
+  const API_KEY = '2arot5W2obucRAoyKxiAQW3NN2SPYVdpuaCNdKU6'; // ganti dengan key pribadi kalau mau lebih dari 1000 request/hari
   document.getElementById('content-area').innerHTML = `
     <h2 class="mb-4">Foto Astronomi Hari ini (Astronomy Picture Of the Day APOD)</h2>
     <div class="row">
