@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NASA REST Client - Kelompok 5</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { background: #121212; min-height: 100vh; }
+    .navbar { box-shadow: 0 2px 10px rgba(0,0,0,0.5); }
+  </style>
+</head>
+<body class="text-light">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="#">
+        <img src="https://api.nasa.gov/assets/img/favicons/favicon-32x32.png" width="32" alt=""> NASA Rest Client
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#apod">APOD</a></li>
+          <li class="nav-item"><a class="nav-link" href="#mars">Mars Rover</a></li>
+          <li class="nav-item"><a class="nav-link" href="#epic">EPIC Earth</a></li>
+          <li class="nav-item"><a class="nav-link" href="#neo">Near Earth Objects</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-4">
+    <div id="content-area" class="bg-dark rounded p-4">
+      <div class="text-center py-5">
+        <h1 class="display-5">Selamat Datang!</h1>
+        <p class="lead">Pilih menu di atas untuk mulai eksplorasi NASA API</p>
+        <small class="text-muted">Masing-masing anggota kelompok cukup isi satu file di folder <code>js/features/</code></small>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
